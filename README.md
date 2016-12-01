@@ -8,7 +8,8 @@
 [![semantic-release][semantic-image] ][semantic-url]
 [![js-standard-style][standard-image]][standard-url]
 
-Will report unhandled rejected promises in your Node process to Sentry.
+This module will register a global Node handler and will send the unhandled
+promise rejections to Sentry (which Raven.js does not send by default).
 
 ## Install and use
 
